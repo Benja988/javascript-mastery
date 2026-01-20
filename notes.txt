@@ -20,6 +20,7 @@ var - loac to the function
 Variable Hoisting
 var-declared variables are Hoisted - Meaning you can refer to the variable from anywhere within it's scope
     even if its declaration isn't reached yet.
+var- declared are not block-scoped
 
 Const are Read-Only
 
@@ -27,3 +28,5 @@ converting Strings to numbers
 -parseInt() - returns whole number
 -parseFloat()
 -Number()
+
+Loop - doing something repetitively
