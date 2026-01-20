@@ -1,0 +1,13 @@
+How JavaScript Runs inside the ingine
+SourceCode --> Parsing --> Compilation --> Execution
+
+What happens in the stages
+Parsing
+-Engine Reads your JS Reads your code
+-Checks for Syntax errors
+-Converts code into Abstract Syntax Tree (AST)
+
+Variable Scopes
+1. Global Scopes
+2. Module Scopes
+3. Function Scopes
