@@ -8,6 +8,22 @@ Parsing
 -Converts code into Abstract Syntax Tree (AST)
 
 Variable Scopes
-1. Global Scopes
-2. Module Scopes
-3. Function Scopes
+1. Global Scopes - default scope
+2. Module Scopes - scope running in module
+3. Function Scopes - Created with a function
+
+
+let and const are Block Scoped
+var - loac to the function
+
+
+Variable Hoisting
+var-declared variables are Hoisted - Meaning you can refer to the variable from anywhere within it's scope
+    even if its declaration isn't reached yet.
+
+Const are Read-Only
+
+converting Strings to numbers
+-parseInt() - returns whole number
+-parseFloat()
+-Number()
